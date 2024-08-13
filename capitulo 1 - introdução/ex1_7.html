@@ -1,0 +1,9 @@
+<meta charset="UTF-8">
+<script>
+    //Calcular o valor total de um jantar. O usuário passa o valor, calculamos a taxa do garçom (10%) e
+    //retornamos o valor total ao usuário.
+    let valorJantar = Number(prompt("Valor do jantar: R$"))
+    const taxaGarcom = 0.1 * valorJantar
+    valorJantar = valorJantar + taxaGarcom
+    alert(`Taxa Garçom R$: ${taxaGarcom}\nO valor total do jantar é ${valorJantar.toFixed(2)}`)
+</script>
